@@ -1,4 +1,5 @@
 node_modules/
+report/
 .DS_Store
 *.vscode
 coverage/
