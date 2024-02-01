@@ -1,0 +1,20 @@
+{
+  "name": "factorial",
+  "version": "1.0.0",
+  "description": "An example to explain mutation testing.",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "start": "tsc && node dist/src/index.js",
+    "test": "jest",
+    "mutate": "npx stryker run"
+  },
+  "author": "matheusffm",
+  "license": "ISC",
+  "devDependencies": {
+    "@stryker-mutator/jest-runner": "^8.2.2",
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2"
+  }
+}

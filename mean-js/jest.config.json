@@ -1,0 +1,13 @@
+{
+    "testMatch": ["**/tests/*.spec.ts"],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+        "src/**/*.ts"
+    ],
+    "coverageDirectory": "<rootDir>/coverage/",
+    "verbose": true,  
+    "transform": {
+        "^.+\\.ts?$": "ts-jest"
+    },
+    "silent": true
+}
