@@ -1,4 +1,4 @@
-# Transactions
+# Factorial Js
 
 This is a simple factorial application to explain the use of StrykerJs for Mutation Testing.
 
