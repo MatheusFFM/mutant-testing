@@ -1,15 +1,15 @@
-# Transactions
+# Mean Js
 
-This is a simple factorial application to explain the use of StrykerJs for Mutation Testing.
+This is a simple mean application to explain the use of StrykerJs for Mutation Testing.
 
 This project contains the application on the following structure:
 
     .
     ├── dist                              # Build version after compile
     ├── src
-    |   └── index.ts                      # Factorial function
+    |   └── index.ts                      # Mean function
     ├── tests
-    |   └── factorial.ts                  # Factorial function test
+    |   └── test.spec.ts                  # Mean function test
     ├── .gitignore
     ├── jest.config.json                  # Jest configuration for tests
     ├── package-lock.json
