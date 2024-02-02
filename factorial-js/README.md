@@ -9,7 +9,7 @@ This project contains the application on the following structure:
     ├── src
     |   └── index.ts                      # Factorial function
     ├── tests
-    |   └── factorial.ts                  # Factorial function test
+    |   └── test.spec.ts                  # Factorial function test
     ├── .gitignore
     ├── jest.config.json                  # Jest configuration for tests
     ├── package-lock.json
